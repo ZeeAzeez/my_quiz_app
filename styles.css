@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(51, 51, 105);
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 90%;
+    height: 300px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.games-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.welcome-section {
+    width: 50%;
+    text-align: center;
+    font-size: 13.5px;
+    margin-top: 70px;
+}
+.welcome-section p{
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.section {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.section:hover {
+    background-color: #1bed22;
+}
+.section a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/* GAME PAGE STYLES */
+/* HTML PAGE STYLES */
+.app{
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+font-size: 25px;
+color: black;
+font-weight: 600;
+border-bottom: 1px solid #333;
+padding-bottom: 30px;
+}
+.question-section-html{
+padding: 20px 0;
+}
+.question-section-html h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+.btn{
+    background-color: black;
+    color: #fff;
+    padding: 8px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+#next-btn{
+    background: #001e4d;
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.correctAnswer{
+    background-color: #4caf50;
+}
+.wrongAnswer{
+    background-color: #7c0000;
+}
