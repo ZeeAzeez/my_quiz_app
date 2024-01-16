@@ -1,48 +1,48 @@
 
 const questions = [
     {
-        question: "What does HTML stand for?",
+        question: "What is JavaScript primarily used for in web development?",
         answers: [
-            { text: "A.  Hyper Text Markup Language", correct: true },
-            { text: "B.  Hyperlinks and Text Markup Language", correct: false },
-            { text: "C.  Home Tool Markup Language", correct: false },
-            { text: "D.  HyperTransfer Markup Language", correct: false }
+            { text: "A.  Styling", correct: false },
+            { text: "B.  Database Management", correct: false },
+            { text: "C.  Client-Side Scripting", correct: true },
+            { text: "D.  Server-Side Scripting", correct: false }
         ] 
     },
     {
-        question: "What does the HTML <img> tag stand for?",
+        question: "How do you select an element with the id 'example' in CSS",
         answers: [
-            { text: "A.  Inline Media Graphics", correct: false },
-            { text: "B.  mage Source", correct: false },
-            { text: "C.  Image", correct: true },
-            { text: "D.  Insert Media", correct: false }
+            { text: "A.  #example", correct: true },
+            { text: "B.  .example", correct: false },
+            { text: "C.  *example", correct: false },
+            { text: "D.  @example", correct: false }
         ] 
     },
     {
-        question: "Which HTML tag is used for creating an ordered list?",
+        question: "What property is used to set the text color in CSS",
         answers: [
-            { text: "A.   < ul > ", correct: false },
-            { text: "B.  < ol > ", correct: true },
-            { text: "C.   < list > ", correct: false },
-            { text: "D.   < order >", correct: false }
+            { text: "A.   text-color ", correct: false },
+            { text: "B.   font-color", correct: false },
+            { text: "C.   color ", correct: true },
+            { text: "D.   text-style", correct: false }
         ]  
     },
     {
-        question: "What is the purpose of the HTML <head> tag?",
+        question: "Which of the following CSS values represents a transparent background?",
         answers: [
-            { text: "A.  It defines the main content of the HTML document.", correct: false },
-            { text: "B.  t defines a header for the document.", correct: false },
-            { text: "C.  It contains metadata about the HTML document.", correct: true },
-            { text: "D.  It defines a hyperlink.", correct: false }
+            { text: "A.  rgba(255, 255, 255, 0)", correct: false },
+            { text: "B.  #000000", correct: false },
+            { text: "C.  hsl(0, 100%, 50%)", correct: false },
+            { text: "D.  transparent", correct: true }
         ] 
     },
     {
-        question: "Which HTML tag is used for creating hyperlinks?",
+        question: "What is the default display property for a <div> element in CSS",
         answers: [
-            { text: "A.  < link > ", correct: false },
-            { text: "B.  < a > ", correct: true },
-            { text: "C.  It contains metadata about the HTML document.", correct: false },
-            { text: "D.  It defines a hyperlink.", correct: false }
+            { text: "A.  inline", correct: false },
+            { text: "B.  block", correct: true },
+            { text: "C.  inline-block", correct: false },
+            { text: "D.  flex", correct: false }
         ] 
     }
 ];
