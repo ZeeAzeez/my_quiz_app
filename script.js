@@ -28,7 +28,7 @@ const questions = [
         ]  
     },
     {
-        question: "What is the purpose of the HTML <head> tag?",
+        question: "What is the purpose of the HTML < head > tag?",
         answers: [
             { text: "A.  It defines the main content of the HTML document.", correct: false },
             { text: "B.  It defines a header for the document.", correct: false },
@@ -41,8 +41,8 @@ const questions = [
         answers: [
             { text: "A.  < link > ", correct: false },
             { text: "B.  < a > ", correct: true },
-            { text: "C.  It contains metadata about the HTML document.", correct: false },
-            { text: "D.  It defines a hyperlink.", correct: false }
+            { text: "C.  < hlink >", correct: false },
+            { text: "D.  < url >", correct: false }
         ] 
     },
     {
@@ -64,7 +64,7 @@ const questions = [
         ] 
     },
     {
-        question: "What is the purpose of the HTML <footer> tag?",
+        question: "What is the purpose of the HTML < footer > tag?",
         answers: [
             { text: "A.  To define a section in a document", correct: false },
             { text: "B.  To define a header for a document", correct: false },
@@ -82,7 +82,7 @@ const questions = [
         ] 
     },
     {
-        question: "What does the HTML <br> tag represent?",
+        question: "What does the HTML < br > tag represent?",
         answers: [
             { text: "A.  Bold ", correct: false },
             { text: "B.  Bullet", correct: false },
